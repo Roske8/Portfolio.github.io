@@ -1,0 +1,153 @@
+@media screen and (max-width: 1441px){
+    main .wrapper .row .blok1 img{
+        width: 500px;
+    }
+}
+@media screen and (max-width: 1025px){
+    main .wrapper .row #author-img img{
+        width: 360px;
+    }
+    main .wrapper .row #author-info{
+        width: 370px;
+    }
+    main .wrapper .row .blok1 img{
+        width: 370px;
+    }
+    main #form-pozadina .wrapper .row .blok2 form input[type=text]{
+        width: 400px;
+    }
+}
+@media screen and (max-width: 769px){  
+    header .wrapper .fn nav ul li a{
+        font-size: 21px;
+        margin-right: 9px;
+    }
+    header .wrapper .fn #logo{
+        display: none;
+    }
+    main #cover #transparent #title .wrapper h1{
+        font-size: 65px;
+    }
+    main #cover #transparent #title .warpper h2{
+        font-size: 45px;
+    }
+    main .wrapper .row #author-img img{
+        width: 260px;
+    }
+    main .wrapper .row #author-info{
+        width: 280px;
+    }
+    main .wrapper .row .blok img{
+        width: 160px;
+        margin-top: 30px;
+    }
+    main .wrapper .row .blok1 img{
+        width: 280px;
+        margin-top: 30px;
+    }
+    main #form-pozadina .wrapper .row .blok2 form input[type=text]{
+        width: 300px;
+    }
+    main #form-pozadina .wrapper .row .blok2 h4,main #form-pozadina .wrapper .row .blok2 p{
+        margin-left: 25px;
+    }
+}
+@media screen and (max-width: 426px){
+    header .wrapper .fn nav ul li{
+        font-size: 15px;
+    }
+    header .wrapper .fn #logo{
+        display: none;
+    }
+    header .wrapper .fn nav ul li{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        position: relative;
+        left: 70%;
+        margin-bottom: 15px;
+    }
+    main #cover #transparent #title .wrapper h1{
+        font-size: 50px;
+    }
+    main #cover #transparent #title .warpper h2{
+        font-size: 30px;
+    }
+    main #cover{
+        height: 600px;
+    }
+    main #cover #transparent #title{
+        top: 120px;
+    }
+    main .wrapper .row{
+        flex-direction: column;
+        text-align: center;
+        margin-top: 5px;
+    }
+    main .wrapper .row #author-img{
+        margin: 30px auto;
+    }
+    main .wrapper .row #author-info{
+        margin: 0px auto;
+    }
+    main #form-pozadina .wrapper .row .blok2 form textarea{
+        width: 300px;
+    }
+    main #form-pozadina .wrapper .row .blok2 h4,main #form-pozadina .wrapper .row .blok2 p{
+        margin-left: 0px;
+    }
+}
+@media screen and (max-width: 376px){
+    header .wrapper .fn nav ul li{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        position: relative;
+        left: 55%;
+        margin-bottom: 15px;
+    }
+    main #form-pozadina .wrapper .row .blok2 h4,main #form-pozadina .wrapper .row .blok2 p{
+        margin-left: 0px;
+    }
+    main #form-pozadina .wrapper .row .blok2 h4{
+        margin-top: 10px;
+    }
+    footer #copyright , footer .wrapper2 nav ul li a{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 321px){
+    header .wrapper .fn nav ul li{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        position: relative;
+        left: 40%;
+        margin-bottom: 15px;
+    }
+    main #cover #transparent #title .wrapper h1{
+        font-size: 40px;
+    }
+    main #cover #transparent #title .warpper h2{
+        font-size: 22px;
+    }
+    main .wrapper .row #author-img img{
+        width: 250px;
+    }
+    main .wrapper .row #author-info{
+        width: 250px;
+    }
+    main .wrapper .row .blok1 img{
+        width: 260px;
+    }
+    main #form-pozadina .wrapper .row .blok2 form textarea{
+        width: 250px;
+    }
+    main #form-pozadina .wrapper .row .blok2 form input[type=text]{
+        width: 250px;
+    }
+    footer #copyright , footer .wrapper2 nav ul li a{
+        font-size: 22px;
+        text-align: center;
+    }
+}
