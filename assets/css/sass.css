@@ -73,7 +73,7 @@ main #cover #transparent {
 
 main #cover #transparent #title {
   width: 100%;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.5);
   top: 240px;
   position: relative;
   left: 0px;
@@ -221,6 +221,9 @@ main #form-pozadina .title-center1 {
 }
 
 main #form-pozadina .wrapper .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
@@ -236,7 +239,6 @@ main #form-pozadina .wrapper .row .blok2 form input[type=text] {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   background: rgba(255, 255, 255, 0.1);
-  color: #fff;
 }
 
 main #form-pozadina .wrapper .row .blok2 form textarea {
@@ -248,24 +250,23 @@ main #form-pozadina .wrapper .row .blok2 form textarea {
   border-radius: 4px;
   background: rgba(255, 255, 255, 0.1);
   font-size: 14px;
-  color: #fff;
   resize: none;
 }
 
 main #form-pozadina .wrapper .row .blok2 form input[type=submit] {
   width: 25%;
   background-color: #363940;
-  color: #fff;
   padding: 14px 20px;
   margin: 8px 0px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  color: #fff;
 }
 
 main #form-pozadina .wrapper .row .blok2 form input[type=submit]:hover {
-  background-color: #8f8e84;
-  color: #363940;
+  background-color: #c5c5b2;
+  color: #030303;
 }
 
 main #form-pozadina .wrapper .row .blok2 h4 {

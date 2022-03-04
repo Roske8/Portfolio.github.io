@@ -146,8 +146,23 @@
     main #form-pozadina .wrapper .row .blok2 form input[type=text]{
         width: 250px;
     }
-    footer #copyright , footer .wrapper2 nav ul li a{
-        font-size: 22px;
+    footer .wrapper2 {
+        flex-direction: column;
         text-align: center;
+    }
+    footer .wrapper2 #copyright{
+        margin-bottom: 15px;
+    }
+    footer .wrapper nav ul li a{
+        font-size: 18px;
+    }
+    footer .wrapper2 nav ul li{
+        margin-right: 10px;
+    }
+    footer .wrapper2 #copyright p{
+        font-size: 16px;
+    }
+    main #form-pozadina .wrapper .row .blok2 h4, main #form-pozadina .wrapper .row .blok2 ul li {
+        font-size: 17px;
     }
 }
