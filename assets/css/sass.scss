@@ -27,6 +27,9 @@ $SD: -5px 5px 12px;
     src: url("../font/RobotoSlab-VariableFont_wght.ttf");
     font-family: Roboto;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: Raboto;
 }
